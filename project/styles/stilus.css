@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #14161c;
+    color: #e8e8ea;
+}
+
+a {
+    color: #e0a526;
+}
+
+.fejlec {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px 25px;
+    background: linear-gradient(135deg, #1f2733, #0d0f14);
+    border-bottom: 3px solid #e0a526;
+}
+
+.fejlec .logo {
+    height: 64px;
+    width: auto;
+}
+
+.fejlec-szoveg {
+    flex: 1 1 auto;
+}
+
+.fejlec h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: #e0a526;
+}
+
+.fejlec .motto {
+    margin: 0;
+    font-style: italic;
+    color: #b8b8bd;
+}
+
+.fejlec .belepve {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #cfcfd3;
+}
+
+.fomenu {
+    background-color: #0d0f14;
+    border-bottom: 1px solid #2a2f3a;
+}
+
+.fomenu ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fomenu a {
+    display: block;
+    padding: 14px 22px;
+    color: #e8e8ea;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.fomenu a:hover {
+    background-color: #1f2733;
+    color: #e0a526;
+}
+
+.fomenu li.active a {
+    color: #e0a526;
+    border-bottom: 3px solid #e0a526;
+}
+
+main {
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+main h2 {
+    color: #e0a526;
+}
+
+.lablec {
+    margin-top: 40px;
+    padding: 18px;
+    text-align: center;
+    background-color: #0d0f14;
+    color: #9a9aa0;
+    border-top: 1px solid #2a2f3a;
+}
+
+.urlap {
+    max-width: 420px;
+}
+
+.urlap fieldset {
+    border: 1px solid #2a2f3a;
+    border-radius: 8px;
+    padding: 18px 20px;
+    background-color: #1b1f28;
+}
+
+.urlap legend {
+    padding: 0 8px;
+    color: #e0a526;
+    font-weight: 600;
+}
+
+.urlap input[type="text"],
+.urlap input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #2a2f3a;
+    border-radius: 6px;
+    background-color: #0d0f14;
+    color: #e8e8ea;
+    font-size: 1rem;
+}
+
+.urlap input[type="submit"] {
+    padding: 10px 22px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #e0a526;
+    color: #14161c;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.urlap input[type="submit"]:hover {
+    background-color: #f0b94a;
+}
+
+.urlap p {
+    margin: 0 0 14px;
+}
+
+.hiba {
+    color: #ff7a7a;
+    font-weight: 600;
+}
+
+@media (max-width: 700px) {
+    .fejlec {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .fejlec-szoveg {
+        flex-basis: 100%;
+    }
+
+    .fomenu ul {
+        flex-direction: column;
+    }
+
+    .fomenu a {
+        padding: 12px 18px;
+        border-bottom: 1px solid #2a2f3a;
+    }
+}
