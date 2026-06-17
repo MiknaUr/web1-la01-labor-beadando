@@ -1,0 +1,39 @@
+.tabla-gordit {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.uzenet-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1b1f28;
+    border: 1px solid #2a2f3a;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.uzenet-tabla th,
+.uzenet-tabla td {
+    padding: 10px 14px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #2a2f3a;
+}
+
+.uzenet-tabla th {
+    background-color: #0d0f14;
+    color: #e0a526;
+    white-space: nowrap;
+}
+
+.uzenet-tabla tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.uzenet-tabla tbody tr:hover {
+    background-color: #222735;
+}
+
+.uzenet-tabla td {
+    color: #e8e8ea;
+}
