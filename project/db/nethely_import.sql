@@ -1,8 +1,3 @@
-CREATE DATABASE IF NOT EXISTS `helios_mozi`
-    CHARACTER SET utf8mb4 COLLATE utf8mb4_hungarian_ci;
-
-USE `helios_mozi`;
-
 CREATE TABLE IF NOT EXISTS `felhasznalok` (
     `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
     `csaladi_nev` VARCHAR(45) NOT NULL,

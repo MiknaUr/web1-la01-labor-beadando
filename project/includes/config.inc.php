@@ -15,15 +15,27 @@ $lablec = array(
     'ceg' => 'Helios Mozi'
 );
 
-$adatbazis = array(
-    'host' => 'localhost',
-    'nev' => 'helios_mozi',
-    'felhasznalo' => 'root',
-    'jelszo' => ''
-);
+$host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '';
+if (strpos($host, 'localhost') === 0 || strpos($host, '127.0.0.1') === 0) {
+    $adatbazis = array(
+        'host' => 'localhost',
+        'nev' => 'helios_mozi',
+        'felhasznalo' => 'root',
+        'jelszo' => ''
+    );
+}
+else {
+    $adatbazis = array(
+        'host' => 'localhost',
+        'nev' => 'adatbazis3',
+        'felhasznalo' => 'adatbazis3',
+        'jelszo' => 'Ozymandias2444'
+    );
+}
 
 $oldalak = array(
     '/' => array('fajl' => 'cimlap', 'szoveg' => 'Főoldal', 'menun' => array(1, 1)),
+    'kepek' => array('fajl' => 'kepek', 'szoveg' => 'Képek', 'menun' => array(1, 1)),
     'belepes' => array('fajl' => 'belepes', 'szoveg' => 'Bejelentkezés', 'menun' => array(1, 0)),
     'kilepes' => array('fajl' => 'kilepes', 'szoveg' => 'Kilépés', 'menun' => array(0, 1)),
     'belep' => array('fajl' => 'belep', 'szoveg' => '', 'menun' => array(0, 0)),

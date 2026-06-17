@@ -1,0 +1,55 @@
+.feltoltes {
+    margin-bottom: 30px;
+}
+
+.megjegyzes {
+    color: #9a9aa0;
+    font-size: 0.9rem;
+}
+
+.siker {
+    color: #6cd07f;
+    font-weight: 600;
+}
+
+.urlap input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    color: #e8e8ea;
+    background-color: #0d0f14;
+    border: 1px solid #2a2f3a;
+    border-radius: 6px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.galeria figure {
+    margin: 0;
+    background-color: #1b1f28;
+    border: 1px solid #2a2f3a;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.galeria img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.galeria figcaption {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+    color: #cfcfd3;
+}
+
+.galeria figcaption small {
+    display: block;
+    margin-top: 4px;
+    color: #9a9aa0;
+}
