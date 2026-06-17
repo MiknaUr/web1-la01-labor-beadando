@@ -26,3 +26,14 @@ CREATE TABLE IF NOT EXISTS `kepek` (
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_hungarian_ci;
+
+CREATE TABLE IF NOT EXISTS `uzenetek` (
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `nev` VARCHAR(100) NOT NULL,
+    `email` VARCHAR(150) NOT NULL,
+    `uzenet` TEXT NOT NULL,
+    `kuldo` VARCHAR(32) DEFAULT NULL,
+    `kuldve` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`)
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_hungarian_ci;

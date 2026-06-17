@@ -1,0 +1,68 @@
+.elerheto {
+    margin-bottom: 25px;
+}
+
+.elerheto address {
+    font-style: normal;
+    line-height: 1.7;
+    color: #cfcfd3;
+}
+
+.urlap {
+    max-width: 560px;
+}
+
+.urlap label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+    color: #cfcfd3;
+}
+
+.urlap textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #2a2f3a;
+    border-radius: 6px;
+    background-color: #0d0f14;
+    color: #e8e8ea;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.mezohiba {
+    display: block;
+    margin-top: 4px;
+    color: #ff7a7a;
+    font-size: 0.9rem;
+}
+
+.hibak {
+    margin: 0 0 16px;
+    padding-left: 20px;
+}
+
+.elkuldott {
+    max-width: 560px;
+    margin: 0 0 20px;
+    padding: 18px 20px;
+    background-color: #1b1f28;
+    border: 1px solid #2a2f3a;
+    border-radius: 8px;
+}
+
+.elkuldott dt {
+    font-weight: 700;
+    color: #e0a526;
+    margin-top: 10px;
+}
+
+.elkuldott dt:first-child {
+    margin-top: 0;
+}
+
+.elkuldott dd {
+    margin: 2px 0 0;
+    color: #e8e8ea;
+}
