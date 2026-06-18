@@ -1,0 +1,84 @@
+.crud-fejlec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.gomb {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.gomb-hozzaad,
+.gomb-szerkeszt {
+    background-color: #2f6fed;
+    color: #ffffff;
+}
+
+.gomb-hozzaad:hover,
+.gomb-szerkeszt:hover {
+    background-color: #4a82f5;
+}
+
+.gomb-torol {
+    background-color: #e23b4e;
+    color: #ffffff;
+}
+
+.gomb-torol:hover {
+    background-color: #ef5263;
+}
+
+.crud-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1b1f28;
+    border: 1px solid #2a2f3a;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.crud-tabla th,
+.crud-tabla td {
+    padding: 10px 14px;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #2a2f3a;
+}
+
+.crud-tabla th {
+    background-color: #0d0f14;
+    color: #e0a526;
+    white-space: nowrap;
+}
+
+.crud-tabla tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.crud-tabla tbody tr:hover {
+    background-color: #222735;
+}
+
+.crud-tabla td {
+    color: #e8e8ea;
+}
+
+.muveletek {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.muveletek form {
+    margin: 0;
+}

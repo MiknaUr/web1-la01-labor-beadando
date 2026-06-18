@@ -2,6 +2,9 @@
 	include('./includes/config.inc.php');
 	include('./includes/db.inc.php');
 	$oldal = $_SERVER['QUERY_STRING'];
+	if (($amp = strpos($oldal, '&')) !== false) {
+		$oldal = substr($oldal, 0, $amp);
+	}
 	if ($oldal!="") {
 		if (isset($oldalak[$oldal]) && file_exists("./templates/pages/{$oldalak[$oldal]['fajl']}.tpl.php")) {
 			$keres = $oldalak[$oldal];

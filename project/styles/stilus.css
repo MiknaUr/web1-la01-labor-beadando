@@ -155,6 +155,25 @@ main h2 {
     font-weight: 600;
 }
 
+.urlap label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+    color: #cfcfd3;
+}
+
+.mezohiba {
+    display: block;
+    margin-top: 4px;
+    color: #ff7a7a;
+    font-size: 0.9rem;
+}
+
+.tabla-gordit {
+    width: 100%;
+    overflow-x: auto;
+}
+
 @media (max-width: 700px) {
     .fejlec {
         justify-content: center;
