@@ -5,7 +5,7 @@
 
 <section class="bemutatkozas">
     <h2>Rólunk</h2>
-    <p>A Helios Mozi nevét Héliosztól, a görög mitológia napistenétől kapta, aki aranyló szekerén nap mint nap végighajt az égen, és mindent lát, ami a föld felett történik. A mi vásznunkon ugyanez a fény kel életre: a vetítőből kiáradó sugár emberi sorsokat, kalandokat és érzelmeket mutat meg a nézőtéren ülőknek.</p>
+    <p>A Helios Mozi nevét Heliosról, a görög mitológia napistenéről kapta, aki aranyló szekerén nap mint nap végighajt az égen, és mindent lát, ami a föld felett történik. A mi vásznunkon ugyanez a fény kel életre: a vetítőből kiáradó sugár emberi sorsokat, kalandokat és érzelmeket mutat meg a nézőtéren ülőknek.</p>
     <p>Három termünkben a kortárs sikerfilmek mellett rendszeresen vetítünk felújított klasszikusokat, art-mozi alkotásokat és gyermekeknek szóló matinékat is. Büfénk friss pattogatott kukoricával és kézműves limonádékkal várja a vendégeket minden vetítés előtt.</p>
 </section>
 

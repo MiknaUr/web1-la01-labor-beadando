@@ -11,6 +11,8 @@
 
 .hero h2 {
     margin: 0 0 12px;
+    padding-left: 0;
+    border-left: none;
     font-size: 2.3rem;
     color: #e0a526;
 }
